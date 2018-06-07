@@ -1,0 +1,13 @@
+[Unit]
+Description=Ombre Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/bin/ombred --rpc-bind-ip 127.0.0.1 --detach --restricted-rpc
+Restart=always
+User=ombredaemon
+
+[Install]
+WantedBy=multi-user.target

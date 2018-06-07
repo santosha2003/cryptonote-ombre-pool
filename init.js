@@ -20,10 +20,10 @@ global.redisClient = redis.createClient(config.redis.port, config.redis.host, {
         }
         if (options.attempt > 10) {
             // End reconnecting with built in error
-						log('error', logSystem, 'Reddis client exceeded max retries');
+						log('error', logSystem, 'Redis client exceeded max retries');
             return undefined;
         }
-				log('error', logSystem, 'Reddis client needs to retry (attempt: %d)', [options.attempt]);
+				log('error', logSystem, 'Redis client needs to retry (attempt: %d)', [options.attempt]);
         // Reconnect after this many seconds.
         return options.attempt * 1000;
     }
@@ -171,7 +171,9 @@ function spawnPoolWorkers(){
         if (!config.poolServer.clusterForks)
             return 1;
         if (config.poolServer.clusterForks === 'auto')
-            return os.cpus().length;
+            //return 1;
+            return (os.cpus().length)-2;
+            //os.cpus().length;  // if 4-core cpu - uses all 4 , coin daemon runs lack of resources dump often  // try if 8 -core use 3-4
         if (isNaN(config.poolServer.clusterForks))
             return 1;
         return config.poolServer.clusterForks;

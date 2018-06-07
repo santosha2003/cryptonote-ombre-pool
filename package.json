@@ -5,19 +5,24 @@
     "author": "Matthew Little",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fancoder/cryptonote-universal-pool.git"
+        "url": "https://github.com/santosha2003/cryptonote-universal-pool.git"
     },
     "dependencies": {
-        "bignum": "*",
         "async": "1",
-        "redis": "*",
-        "cli-color": "*",
-        "dateformat": "*",
         "base58-native": "*",
+        "bignum": "^0.12.5",
+        "mailgun.js": "*",
+        "cli-color": "*",
+        "cryptonote-util": "git://github.com/santosha2003/node-cryptonote-util.git#xmr-Nan-2.0",
+        "dateformat": "*",
+        "forever-monitor": "^1.7.1",
+        "logrotate": "0.0.1",
         "multi-hashing": "git://github.com/santosha2003/node-multi-hashing.git#Nan-2.0",
-        "cryptonote-util": "git://github.com/santosha2003/node-cryptonote-util.git#xmr-Nan-2.0"
+        "pm2": "^2.10.4",
+        "pm2-monit": "0.0.1",
+        "redis": "*"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=4.0"
     }
 }
