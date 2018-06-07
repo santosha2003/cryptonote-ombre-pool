@@ -1,1 +1,23 @@
-1
+2018-06-06 20:51:10 Started
+2018-06-06 20:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-06 20:51:10 No workers' balances reached the minimum payment threshold
+2018-06-06 23:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-06 23:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 02:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 02:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 05:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 05:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 08:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 08:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 11:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 11:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 14:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 14:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 17:51:10 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 17:51:10 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 19:40:24 Started
+2018-06-07 19:40:24 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 19:40:24 Payments splintered and 0 successfully sent, 1 failed
+2018-06-07 22:40:24 Using payout level 2000000000 for worker cashKNy8CZmCkzsiJDD15t66cTCwQP61iPx82GqS4FkyHtPrfcjgCk7ZNZhLbp6rtW98yPp9RTpi7VzSHDUauiRx9QxuKiGdr4 (default: 2000000000)
+2018-06-07 22:40:28 Payments sent via wallet daemon {"fee":12110900,"tx_hash":"6714c830cbeeb8703d62648dcea887b0437e400b05899dee8953b48213d0500a","tx_key":""}
+2018-06-07 22:40:28 Payments splintered and 1 successfully sent, 0 failed
