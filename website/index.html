@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 
-    <title>Sumokoin Mining Pool</title>
-    
+    <title>Ombre Mining Pool</title>
+
     <!-- favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
-    
+
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
@@ -79,11 +79,11 @@
             margin: 10px auto;
             text-align: center;
         }
-        
+
         .sumo-orange{
             color: orange;
         }
-        
+
         .navbar-header .navbar-brand {
             text-transform: uppercase;
             font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -100,7 +100,7 @@
         }
 
     </style>
-    
+
     <link href="custom.css" rel="stylesheet">
 
 </head>
@@ -144,7 +144,7 @@
     function getTransactionUrl(id) {
         return transactionExplorer.replace('{symbol}', lastStats.config.symbol.toLowerCase()).replace('{id}', id);
     }
-    
+
     $.fn.update = function(txt){
         var el = this[0];
         if (el.textContent !== txt)
@@ -340,7 +340,7 @@
 
     $(function(){
 		$("head").append("<link rel='stylesheet' href=" + themeCss + ">");
-		
+
         $.get(api + '/stats', function(data){
             lastStats = data;
             updateIndex();
@@ -361,7 +361,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="/">
-                <i class="fa fa-circle sumo-orange"></i> Sumokoin Mining Pool
+                <i class="fa fa-circle sumo-orange"></i> Ombre Pool
             </a>
         </div>
         <div class="collapse navbar-collapse">
@@ -369,10 +369,6 @@
 
                 <li class="active"><a class="hot_link" data-page="home.html" href="#">
                     <i class="fa fa-home"></i> Home
-                </a></li>
-
-                <li><a class="hot_link" data-page="getting_started.html" href="#getting_started">
-                    <i class="fa fa-rocket"></i> Getting Started
                 </a></li>
 
                 <li><a class="hot_link" data-page="pool_blocks.html" href="#pool_blocks">
@@ -383,9 +379,30 @@
                     <i class="fa fa-paper-plane-o"></i> Payments
                 </a></li>
 
-                <li><a class="hot_link" data-page="support.html" href="#support">
-                    <i class="fa fa-comments"></i> Support
+                <li><a class="hot_link" data-page="worker_stats.html" href="#worker_stats">
+                    <i class="fa fa-tachometer"></i> Worker Stats
                 </a></li>
+
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-comments"></i> Support
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="hot_link" data-page="getting_started.html" href="#getting_started">
+                        <i class="fa fa-rocket"></i> Getting Started </a>
+                    </li>
+                    <li>
+                      <a class="hot_link" data-page="support.html" href="#support">
+                        <i class="fa fa-comments"></i> Contact </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a class="hot_link" data-page="settings.html" href="#settings">
+                    <i class="fa fa-cog"></i> Settings
+                </a></li>
+
 
             </ul>
             <div id="stats_updated">Stats Updated &nbsp;<i class="fa fa-bolt"></i></div>
@@ -407,7 +424,8 @@
         This pool is not healthy! Contact the admin for support.
     </div>
     <div class="text-muted">
-        Powered by <a target="_blank" href="//cryptonotemining.org"><i class="fa fa-github"></i> cryptonote-universal-pool</a>
+        Powered by <a target="_blank"
+          href="https://github.com/santosha2003/cryptonote-ombre-pool"><i class="fa fa-github"></i> cryptonote-ombre-pool</a>
         <span id="poolVersion"></span>
         open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a>
     </div>
