@@ -24,6 +24,10 @@
         "minerTimeout": 900,
         "sslKey": "/usr/local/etc/letsencrypt/live/santosha.no-ip.info/privkey.pem",
         "sslCert": "/usr/local/etc/letsencrypt/live/santosha.no-ip.info/fullchain.pem",
+            "allowedMinerAddressPrefixes": [ 
+          "925524", "111002" 
+       ], 
+
         "ports": [
             {
                 "port": 3334,
